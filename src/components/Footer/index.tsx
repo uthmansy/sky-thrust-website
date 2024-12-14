@@ -20,9 +20,10 @@ function Footer() {
               </div>
             </Link>
             <p className="max-w-md">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit
-              eligendi veritatis error accusamus qui iure, mollitia soluta
-              reprehenderit molestiae voluptates esse cumque.
+              Thank you for visiting Sky Thrust Services. We are dedicated to
+              providing reliable solutions and exceptional service. Connect with
+              us to learn more about how we can support your business and
+              project needs.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-32 lg:gap-40">

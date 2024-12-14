@@ -13,27 +13,23 @@ interface Service {
 function Services() {
   const services: Service[] = [
     {
-      title: "Service One",
-      description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Recusandae tempore amet rerum at.`,
+      title: "General Contracting",
+      description: `Comprehensive project management and execution for residential and commercial developments.`,
       icon: <IoBusiness className="w-14 h-14 text-primary" />,
     },
     {
-      title: "Service Two",
-      description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Recusandae tempore amet rerum at.`,
+      title: "Business Consultation",
+      description: `Expert advice and strategies to optimize operations and drive sustainable business growth.`,
       icon: <IoBusiness className="w-14 h-14 text-primary" />,
     },
     {
-      title: "Service Three",
-      description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Recusandae tempore amet rerum at.`,
+      title: "Trade Services",
+      description: `Skilled professionals delivering high-quality trade services for diverse industrial needs.`,
       icon: <IoBusiness className="w-14 h-14 text-primary" />,
     },
     {
-      title: "Service Four",
-      description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Recusandae tempore amet rerum at.`,
+      title: "Project Planning",
+      description: `Strategic planning and coordination to ensure successful project outcomes within deadlines and budgets.`,
       icon: <IoBusiness className="w-14 h-14 text-primary" />,
     },
   ];
@@ -57,10 +53,10 @@ function Services() {
               Our services
             </h2>
             <p className="opacity-70">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-              asperiores maxime nemo cupiditate quis atque. Natus, in. Facilis
-              ipsa molestiae eius esse porro debitis quos, qui, omnis est
-              repudiandae dolore.
+              At Sky Thrust Services, we provide a range of professional
+              solutions tailored to meet your needs. From general contracting to
+              expert business consulting, our team ensures each project is
+              executed with precision and quality. Explore our services below.
             </p>
           </div>
           <div className="md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-7">

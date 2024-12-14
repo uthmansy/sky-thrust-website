@@ -19,12 +19,9 @@ export default function Header() {
   const [backwards, setBackwards] = useState(false);
   const images = useMemo(() => [HERO_1.src, HERO_2.src, HERO_3.src], []);
   const descriptions: string[] = [
-    `Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-            eum magni veniam deserunt, ea dolor dolores facilis`,
-    `consectetur adipisicing elit. Similique
-            eum magni veniam deserunt Lorem ipsum dolor sit amet consectetur `,
-    `Similique
-            eum magni veniam deserunt Lorem ipsum `,
+    `At Sky Thrust Services, we specialize in delivering innovative solutions across general trades, business operations, and contract projects.`,
+    `From comprehensive business services to large-scale contract execution, Sky Thrust Services is your go-to partner.`,
+    `Sky Thrust Services is redefining excellence in general trade and contracting. We ensure impactful results and lasting relationships.`,
   ];
 
   useEffect(() => {
@@ -193,7 +190,7 @@ export default function Header() {
       </div>
       <div className="absolute bottom-0 right-0 w-full bg-white text-gray-600 opacity-85 md:max-w-md lg:max-w-lg hidden z-10 md:flex flex-col space-y-10 p-14 md:p-20">
         <div className="flex justify-between items-center">
-          <div className="text-sm uppercase">Right Text</div>
+          <div className="text-sm uppercase">What We Are</div>
           <div className="flex space-x-2">
             <button
               onClick={prevSlide}

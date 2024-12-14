@@ -13,9 +13,9 @@ function Contact() {
           <div className="flex flex-col space-y-10">
             <h3 className="font-bold text-3xl uppercase">Get In Touch</h3>
             <p className="opacity-80 max-w-md">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. At esse
-              autem laboriosam facilis voluptatibus eum vel repudiandae ullam?
-              Officiis ipsam dicta delectus
+              We’d love to hear from you! Whether you have questions or need
+              assistance, our team is here to help. Reach out today, and let’s
+              discuss how we can work together to achieve your goals.
             </p>
             <div className="flex flex-col space-y-5">
               <div className="flex items-center space-x-10">

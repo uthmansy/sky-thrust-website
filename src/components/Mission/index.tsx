@@ -9,14 +9,16 @@ function Mission() {
         <div className="md:flex justify-between items-end py-24 md:py-28">
           <div className="max-w-lg flex flex-col space-y-8 mb-5 md:mb-0">
             <span className="uppercase tracking-wider text-accent">
-              Subheading
+              Innovation
             </span>
-            <h2 className="text-3xl md:text-6xl">Lorem ipsum dolor sit amet</h2>
+            <h2 className="text-3xl md:text-6xl">
+              Leading with Vision and Expertise
+            </h2>
           </div>
           <div className="max-w-md">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint
-              exercitationem laboriosam atque pariatur.
+              Sky Thrust Services combines innovation and expertise to deliver
+              exceptional, reliable solutions for every project.
             </p>
           </div>
         </div>
@@ -25,7 +27,7 @@ function Mission() {
         <div className="flex flex-col md:flex-row">
           <div className="md:w-2/5 bg-secondary text-white p-10 py-20 md:p-20 flex flex-col space-y-56">
             <span className="uppercase tracking-widest opacity-60 text-sm">
-              Some Text
+              Mission
             </span>
             <div className="flex flex-col space-y-7">
               <h3 className="text-3xl md:text-5xl font-semibold uppercase opacity-80 flex items-center space-x-5">
@@ -33,8 +35,8 @@ function Mission() {
                 <span>Our Mission</span>
               </h3>
               <p className="opacity-40 max-w-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
-                tempora sed. Natus voluptatum nobis perferendis
+                To provide innovative, high-quality solutions that exceed client
+                expectations and drive lasting success across industries.
               </p>
             </div>
           </div>
@@ -62,16 +64,17 @@ function Mission() {
           </div>
           <div className="md:w-2/5 bg-accent text-secondary p-10 py-20 md:p-20 flex flex-col space-y-56">
             <span className="uppercase tracking-widest opacity-90 text-sm">
-              Some Text
+              Vision
             </span>
             <div className="flex flex-col space-y-7">
               <h3 className="text-3xl md:text-5xl font-semibold uppercase flex items-center space-x-5">
                 <div className="h-[2px] bg-secondary opacity-50 w-20" />{" "}
-                <span>Our Mission</span>
+                <span>Our Vision</span>
               </h3>
               <p className="opacity-90 max-w-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
-                tempora sed. Natus voluptatum nobis perferendis
+                To be the preferred partner, transforming industries with
+                excellence, integrity, and groundbreaking solutions for all
+                clients.
               </p>
             </div>
           </div>
