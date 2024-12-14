@@ -1,7 +1,15 @@
 "use client";
-import Header from "@/components/Header";
 import About from "@/components/About";
 import { useEffect } from "react";
+import Vision from "@/components/Vision";
+import Subscribe from "@/components/Subscribe";
+import TopNav from "@/components/TopNav";
+import MobileMenu from "@/components/MobileMenu";
+import Header from "@/components/Header";
+import Mission from "@/components/Mission";
+import Services from "@/components/Services";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   useEffect(() => {
@@ -18,9 +26,14 @@ export default function Home() {
   }, []);
 
   return (
-    <>
+    <div>
+      {/* <TopNav /> */}
       <Header />
       <About />
-    </>
+      <Mission />
+      <Services />
+      <Contact />
+      <Footer />
+    </div>
   );
 }

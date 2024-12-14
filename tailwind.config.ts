@@ -12,7 +12,16 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         primary: "#468f9b",
-        accent: "#666465",
+        secondary: "#002b35",
+        dark: "#A2A79E",
+        accent: "#ff8d3d",
+        light: "#e6f4f1",
+      },
+      fontFamily: {
+        heading: '"Encode Sans Condensed", sans-serif',
+      },
+      fontSize: {
+        base: "calc(16px + 0.2vw)", // Custom base font size
       },
     },
   },

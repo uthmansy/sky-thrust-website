@@ -7,5 +7,7 @@ interface Props {
 }
 
 export default function Container({ children }: Props) {
-  return <div className="mx-auto px-4 md:px-8">{children}</div>;
+  return (
+    <div className="relative mx-auto px-5 max-w-screen-xl">{children}</div>
+  );
 }

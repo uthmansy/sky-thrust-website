@@ -1,45 +1,69 @@
 "use client";
+import Container from "./Container";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import gsap from "gsap";
 
-export default function About() {
+const About = () => {
   return (
-    <section
-      id="about-us-section"
-      className="relative bg-gradient-to-b from-blue-900 to-gray-900 text-white py-16 px-8 lg:px-24"
-    >
-      <div className="container mx-auto">
-        <h2 className="text-4xl lg:text-6xl font-bold text-center mb-12 fade-in">
-          About Us
-        </h2>
-        <div className="lg:flex lg:items-center lg:gap-12">
-          {/* Left Content */}
-          <div className="lg:w-1/2 mb-8 lg:mb-0 fade-in">
-            <p className="text-lg lg:text-xl leading-relaxed">
-              At{" "}
-              <span className="text-yellow-400 font-bold">
-                Sky Thrust Services
+    <section className="py-28 relative">
+      <Container>
+        <p className="text-center text-2xl md:text-4xl text-primary max-w-screen-lg mx-auto mb-20">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+          voluptate totam delectus cumque ut tempora sequi praesentium obcaecati
+          sapiente. Quasi, obcaecati possimus. Culpa esse officia maiores cumque
+          neque, non deleniti.
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-3">
+          <div className="relative p-5 py-10 text-gray-500 md:px-14 lg:px-24">
+            <div className="absolute top-16 hidden md:block right-0 w-1/3 h-1 border-b border-primary" />
+            <div className="flex flex-col space-y-3 items-center text-center relative">
+              <span className="h-14 w-14 bg-accent text-light rounded-full flex items-center justify-center">
+                1
               </span>
-              , we excel in delivering top-notch solutions in general trade,
-              contracting, and aviation services. From sourcing the finest
-              materials to facilitating seamless aviation operations, we’re
-              committed to excellence and precision.
-            </p>
-            <p className="mt-6 text-lg lg:text-xl leading-relaxed">
-              With a legacy built on trust and innovation, our mission is to
-              empower businesses and clients with reliable services that meet
-              their unique needs. Whether on the ground or in the skies, we are
-              your trusted partner for success.
-            </p>
+              <h3 className="uppercase text-primary font-semibold tracking-wider">
+                Our Mission
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur ullam.
+              </p>
+            </div>
           </div>
-          {/* Right Image */}
-          <div className="lg:w-1/2 slide-in">
-            <img
-              src="/images/about-us-aviation.jpg" // Replace with your image path
-              alt="Sky Thrust Services"
-              className="rounded-lg shadow-lg"
-            />
+          <div className="relative p-5 py-10 text-gray-500 md:px-14 lg:px-24">
+            <div className="absolute top-16 hidden md:block right-0 w-1/3 h-1 border-b border-primary" />
+            <div className="absolute top-16 hidden md:block left-0 w-1/3 h-1 border-b border-primary" />
+            <div className="flex flex-col space-y-3 items-center text-center relative">
+              <span className="h-14 w-14 bg-accent text-light rounded-full flex items-center justify-center">
+                2
+              </span>
+              <h3 className="uppercase text-primary font-semibold tracking-wider">
+                Our Vission
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur ullam.
+              </p>
+            </div>
+          </div>
+          <div className="relative p-5 py-10 text-gray-500 md:px-14 lg:px-24">
+            <div className="absolute top-16 hidden md:block left-0 w-1/3 h-1 border-b border-primary" />
+            <div className="flex flex-col space-y-3 items-center text-center relative">
+              <span className="h-14 w-14 bg-accent text-light rounded-full flex items-center justify-center">
+                3
+              </span>
+              <h3 className="uppercase text-primary font-semibold tracking-wider">
+                Our Future
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur ullam.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
+      </Container>
     </section>
   );
-}
+};
+
+export default About;
